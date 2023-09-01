@@ -99,7 +99,6 @@
 					</excludes>
 				</configuration>
 			</plugin>
-<<<<<<< HEAD
 			<plugin>
 				<groupId>org.sonarsource. scanner. Maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
@@ -129,37 +128,6 @@
 					</execution>
 				</executions>
 			</plugin>
-=======
-		<plugin>
-      <groupId>org.jacoco</groupId>
-     <artifactId>jacoco-maven-plugin</artifactId>
-      <version>0.8.7</version>
-      <executions>
-        <execution>
-          <id>prepare-agent</id>
-          <goals>
-            <goal>prepare-agent</goal>
-          </goals>
-        </execution>
-        <execution>
-          <id>report</id>
-          <goals>
-            <goal>report</goal>
-          </goals>
-          <configuration>
-            <formats>
-              <format>XML</format>
-            </formats>
-          </configuration>
-        </execution>
-      </executions>
-    </plugin>
-			<plugin> 
-                           <groupId>org.sonarsource. scanner. Maven</groupId> 
-                        <artifactId>sonar-maven-plugin</artifactId>
-                       <version>3.8.0.2131</version>
-                     </plugin>
->>>>>>> 8fc29b5f0ba4435b2f08dd05f2fb8d011291438b
 		</plugins>
 	</build>
 </project>
